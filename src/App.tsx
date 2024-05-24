@@ -19,6 +19,7 @@ import { HoverBorderGradientDemo } from "./components/aceternity/demos/HoverBord
 import { HeroHighlightDemo } from "./components/aceternity/demos/HeroHighlightDemo";
 import { AuroraBackgroundDemo } from "./components/aceternity/demos/AuroraBackgroundDemo";
 import { BackgroundGradientAnimationDemo } from "./components/aceternity/demos/BackgroundGradientAnimationDemo";
+import { BackgroundGradientDemo } from "./components/aceternity/demos/BackgroundGradientDemo";
 
 function App() {
 
@@ -69,8 +70,9 @@ function App() {
     { name: "Background Gradient Animation", path: "/background-gradient-animation", 
       element: <BackgroundGradientAnimationDemo />
      },
-
-
+    { name: "Background Gradient", path: "/background-gradient", 
+      element: <BackgroundGradientDemo />
+     },
   ];
 
 

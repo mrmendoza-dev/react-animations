@@ -2,19 +2,19 @@
 import React from "react";
 import { BackgroundGradient } from "../ui/background-gradient";
 import { IconAppWindow } from "@tabler/icons-react";
-import Image from "next/image";
+// import Image from "next/image";
 
 export function BackgroundGradientDemo() {
   return (
-    <div>
+    <div className="inline-flex">
       <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
-        <Image
+        {/* <Image
           src={`/jordans.webp`}
           alt="jordans"
           height="400"
           width="400"
           className="object-contain"
-        />
+        /> */}
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
           Air Jordan 4 Retro Reimagined
         </p>
