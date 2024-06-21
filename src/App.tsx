@@ -20,6 +20,7 @@ import { HeroHighlightDemo } from "./components/aceternity/demos/HeroHighlightDe
 import { AuroraBackgroundDemo } from "./components/aceternity/demos/AuroraBackgroundDemo";
 import { BackgroundGradientAnimationDemo } from "./components/aceternity/demos/BackgroundGradientAnimationDemo";
 import { BackgroundGradientDemo } from "./components/aceternity/demos/BackgroundGradientDemo";
+import { TracingBeamDemo } from "./components/aceternity/demos/TracingBeamDemo";
 
 function App() {
 
@@ -72,6 +73,9 @@ function App() {
      },
     { name: "Background Gradient", path: "/background-gradient", 
       element: <BackgroundGradientDemo />
+     },
+    { name: "Tracing Beam", path: "/tracing-beam", 
+      element: <TracingBeamDemo />
      },
   ];
 
